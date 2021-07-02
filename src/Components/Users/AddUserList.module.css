@@ -1,0 +1,22 @@
+.users {
+  margin: 3rem auto;
+  width: 40rem;
+  max-width: 90%;
+}
+
+.users:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.users ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.users li {
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  line-height: 26px;
+}

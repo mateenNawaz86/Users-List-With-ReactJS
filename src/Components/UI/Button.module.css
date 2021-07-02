@@ -1,0 +1,23 @@
+.btn {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  background-color: #6d036d;
+  border-radius: 4px;
+  color: #fff;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.btn:hover {
+  border-radius: 4px;
+  background-color: #bf17bf;
+}
+
+@media(min-width:768px) {
+    .btn {
+        width: auto;
+    }
+}
